@@ -8,7 +8,6 @@ Created on Fri May 19 13:25:23 2023
 from steam import Steam
 from decouple import config
 import pandas as pd
-import numpy as np
 
 with open("myapikey.txt", "r") as file:
     myapikey=file.read()
