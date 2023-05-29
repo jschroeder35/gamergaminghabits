@@ -35,3 +35,6 @@ for user in users:
 #filter out games that have 0 owners
 
 gamesnusersdf=pd.DataFrame(gamesnusers.values(),index=gamesnusers.keys(),columns=['Nusers'])
+gamesnusersdf2=gamesnusersdf.loc[gamesnusersdf.Nusers>0]
+
+
