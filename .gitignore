@@ -4,3 +4,4 @@ myapikey.txt
 .ipynb_checkpoints/previous_tests_found_ids-checkpoint.ipynb
 .ipynb_checkpoints/python-steam-api_function_testing-checkpoint.ipynb
 testingdf2.pkl
+trained_model.db
